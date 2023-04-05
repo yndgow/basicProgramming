@@ -36,6 +36,7 @@ public class score {
         System.out.println("황진이객체의 내용 : " + 황진이객체);
         // 송헤교 객체의 내용 출력해보기
         System.out.println("송혜교객체의 내용 : " + 송혜교객체);
+        
 
     }
 }
