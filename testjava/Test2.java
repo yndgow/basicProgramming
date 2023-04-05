@@ -1,5 +1,3 @@
-package testjava;
- 
 import java.util.Scanner;
 
 public class Test2 {
