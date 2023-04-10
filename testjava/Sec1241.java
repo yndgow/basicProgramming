@@ -1,28 +1,11 @@
-public class Sec1241 implements Sec124{
+public class Sec1241 extends Calculator{
 
     @Override
-    public int add(int x, int y) {
-        return x + y;
-    }
-
-    @Override
-    public double div(int x, int y) {
-        return x / y;
-    }
-
-    @Override
-    public int mul(int x, int y) {
-        return x * y;
-    }
-
-    @Override
-    public int sub(int x, int y) {
-        return x - y;
-    }
-
-    public int sqr(int x){
+    public int sqr(int x) {
+        
         return x * x;
     }
+
     public static void main(String[] args) {
         int a = 2;
         int b = 4;
