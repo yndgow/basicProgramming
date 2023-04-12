@@ -1,0 +1,20 @@
+# [...] 임시객체생성
+list = [10, 11, 12]
+popResult = list.pop(1)
+print(list, popResult)
+list.append([13,14,15])
+print(list)
+print(len(list))
+print(list.index(12))
+offset = list.index([13,14,15])
+list.pop(offset)
+print(list)
+print(list.count(10))
+list.extend([11,13,14,15])
+list.reverse()
+print(list)
+list.sort()
+print(list)
+list.sort(reverse=True)
+print(list)
+
